@@ -1,0 +1,114 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#111;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:900px;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:25px;
+    font-size:32px;
+}
+
+.top-options{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:30px;
+}
+
+.option{
+    cursor:pointer;
+}
+
+.circle{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    background:#ff4081;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:32px;
+    border:4px solid #fff;
+    transition:.3s;
+}
+
+.circle:hover{
+    transform:scale(1.08);
+}
+
+.option p{
+    margin-top:8px;
+    font-size:15px;
+}
+
+.scratch-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    max-width:420px;
+    margin:auto;
+}
+
+.scratch-card{
+    width:120px;
+    height:120px;
+    position:relative;
+    border-radius:50%;
+    overflow:hidden;
+    background:#fff;
+    margin:auto;
+}
+
+.scratch-card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+canvas{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+@media(max-width:600px){
+
+.scratch-grid{
+    gap:15px;
+}
+
+.scratch-card{
+    width:95px;
+    height:95px;
+}
+
+.circle{
+    width:75px;
+    height:75px;
+    font-size:26px;
+}
+
+}
