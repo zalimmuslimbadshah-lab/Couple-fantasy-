@@ -1,38 +1,38 @@
 const images = {
     mf: [
-        "images/mf1.png",
-        "images/mf2.png",
-        "images/mf3.png",
-        "images/mf4.png",
-        "images/mf5.png",
-        "images/mf6.png",
-        "images/mf7.png",
-        "images/mf8.png",
-        "images/mf9.png"
+        "mf1.png",
+        "mf2.png",
+        "mf3.png",
+        "mf4.png",
+        "mf5.png",
+        "mf6.png",
+        "mf7.png",
+        "mf8.png",
+        "mf9.png"
     ],
 
     mfm: [
-        "images/mfm1.png",
-        "images/mfm2.png",
-        "images/mfm3.png",
-        "images/mfm4.png",
-        "images/mfm5.png",
-        "images/mfm6.png",
-        "images/mfm7.png",
-        "images/mfm8.png",
-        "images/mfm9.png"
+        "mfm1.png",
+        "mfm2.png",
+        "mfm3.png",
+        "mfm4.png",
+        "mfm5.png",
+        "mfm6.png",
+        "mfm7.png",
+        "mfm8.png",
+        "mfm9.png"
     ],
 
     fmf: [
-        "images/fmf1.png",
-        "images/fmf2.png",
-        "images/fmf3.png",
-        "images/fmf4.png",
-        "images/fmf5.png",
-        "images/fmf6.png",
-        "images/fmf7.png",
-        "images/fmf8.png",
-        "images/fmf9.png"
+        "fmf1.png",
+        "fmf2.png",
+        "fmf3.png",
+        "fmf4.png",
+        "fmf5.png",
+        "fmf6.png",
+        "fmf7.png",
+        "fmf8.png",
+        "fmf9.png"
     ]
 };
 
